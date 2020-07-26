@@ -43,6 +43,7 @@
 .main-text{
     font-weight: 600;
     font-size: 40px;
+    line-height: 95.33%;
     font-family: 'Open Sans', sans-serif;
 }
 .tel-footer{
@@ -97,7 +98,7 @@
 }
 header.sticky {
     padding: 5px 10px;
-    background: linear-gradient(180deg, #64A0C2 0%, #CFDAF0 100%);
+    background: #F5F5F5;
 }
 .header:before{
     content: '';
@@ -173,6 +174,10 @@ header.sticky {
     }
     .header__body{
         height: 50px;
+    }
+    .main-text{
+        font-weight: 300;
+        font-size: 35px;
     }
     .header.active:before{
         background: linear-gradient(180deg, #64A0C2 0%, #CFDAF0 100%);
