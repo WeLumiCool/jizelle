@@ -11,16 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/about', function () {
-    return view('about');
-})->name('about');
+Route::get('/terms_of_use', function () {
+    return view('terms_of_use');
+})->name('terms_of_use');
 
 Route::get('/contact', function () {
     return view('contact');

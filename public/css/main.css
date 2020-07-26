@@ -176,8 +176,9 @@ header.sticky {
         height: 50px;
     }
     .main-text{
-        font-weight: 300;
-        font-size: 35px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 95.33%;
     }
     .header.active:before{
         background: linear-gradient(180deg, #64A0C2 0%, #CFDAF0 100%);
@@ -236,20 +237,21 @@ header.sticky {
     .nav-header{
         display: inline-block;
     }
+
 }
 
 .content{
     padding-top: 120px;
 }
-@media (max-width: 767px) {
-    .content{
-        padding: 70px 0px 0px 0px;
-    }
-}
-@media (max-width: 767px) {
-    .content{
-        padding: 70px 0px 0px 0px;
-    }
-}
 
+@media (max-width: 767px) {
+    .content{
+        padding: 70px 0px 0px 0px;
+    }
+}
+@media (max-width: 450px) {
+    .social{
+        display: none;
+    }
+}
 

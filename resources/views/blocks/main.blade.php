@@ -4,9 +4,9 @@
             <p class="main-text">Женская одежда больших размеров от производителей</p>
             <p class="py-3">Актуальные женские одежды больших размеров от производителя
                 с минимальной суммой от 5000 рублей и бесплатной доставкой!</p>
-            <div class="py-5">
+            <div class="py-5 ">
                 <button class="btn-main" data-toggle="modal" data-target="#exampleModal" style="filter: drop-shadow(0px 2px 27px rgba(0, 0, 0, 0.1));">Получить каталог</button>
-                <div class="py-5">
+                <div class="py-5 social">
                     <a href="https://api.whatsapp.com/send?phone=996507900300" class="text-decoration-none"><img src="{{ asset('icons/whatsapp.svg') }}" alt="whatsapp"></a>
                     <a href="https://t.me/Jizzele" class="text-decoration-none"><img src="{{ asset('icons/telegram.svg') }}" alt="telegram"></a>
                     <a href="https://www.instagram.com/jizelle.world/" class="text-decoration-none"><img src="{{ asset('icons/instagram.svg') }}" alt="instagram"></a>
