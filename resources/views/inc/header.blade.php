@@ -58,7 +58,6 @@
 
 </div>
 
-@include('blocks.main')
 
 @push('scripts')
     <script type="text/javascript">
