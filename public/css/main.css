@@ -43,6 +43,7 @@
 .main-text{
     font-weight: 600;
     font-size: 40px;
+    line-height: 95.33%;
     font-family: 'Open Sans', sans-serif;
 }
 .tel-footer{
@@ -102,7 +103,7 @@
 }
 header.sticky {
     padding: 5px 10px;
-    background: linear-gradient(180deg, #64A0C2 0%, #CFDAF0 100%);
+    background: #F5F5F5;
 }
 .header:before{
     content: '';
@@ -179,6 +180,11 @@ header.sticky {
     .header__body{
         height: 50px;
     }
+    .main-text{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 95.33%;
+    }
     .header.active:before{
         background: linear-gradient(180deg, #64A0C2 0%, #CFDAF0 100%);
     }
@@ -236,19 +242,21 @@ header.sticky {
     .nav-header{
         display: inline-block;
     }
+
 }
 
 .content{
     padding-top: 120px;
 }
+
 @media (max-width: 767px) {
     .content{
         padding: 70px 0px 0px 0px;
     }
 }
-@media (max-width: 767px) {
-    .content{
-        padding: 70px 0px 0px 0px;
+@media (max-width: 450px) {
+    .social{
+        display: none;
     }
 }
 

@@ -1,4 +1,4 @@
-<div class="section my-5">
+<div class="section mb-5">
     <div class="container">
         <h2 class="py-4">О нас</h2>
         <div class="row">
