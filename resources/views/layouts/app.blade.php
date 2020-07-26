@@ -28,13 +28,27 @@
 
 
 @include('inc.footer')
-
+@include('modal.application')
+@include('modal.product')
+@include('modal.product1')
+@include('modal.product2')
+@include('modal.product3')
+@include('modal.product4')
 <script src="{{ asset('js/jquery.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('js/mdb.min.js') }}"></script>
 <script src="{{ asset('js/owl.carousel.js') }}"></script>
 @stack('scripts')
-
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#pick").on("click","a", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top}, 700);
+        });
+    });
+</script>
 <script>
     var owl = $('.owl-one');
     owl.owlCarousel({

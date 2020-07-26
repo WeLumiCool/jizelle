@@ -23,16 +23,16 @@
 {{--                            <a href="#" class="header__link ml-lg-4">Контакты</a>--}}
 {{--                        </li>--}}
 {{--                    </ul>--}}
-                    <ul class="header__list" style="padding-left: 0px;">
+                    <ul class="header__list" id="pick" style="padding-left: 0px;">
                         <li class="nav-header">
-                            <a href="#" class="header__link"><img class="nav-header pr-2"  src="{{ asset('icons/home_icon.svg') }}" alt="">Главная</a>
+                            <a href="#main" class="header__link"><img class="nav-header pr-2"  src="{{ asset('icons/home_icon.svg') }}" alt="">Главная</a>
                         </li>
                         <li>
-                            <a href="#" class="header__link"><img class="nav-header  pr-2"  src="{{ asset('icons/box_icon.svg') }}"
+                            <a href="#catalog" class="header__link"><img class="nav-header  pr-2"  src="{{ asset('icons/box_icon.svg') }}"
                                                                   alt="Каталог">Каталог</a>
                         </li>
                         <li>
-                            <a href="#" class="header__link "><img  class="nav-header pr-2 " src="{{ asset('icons/about_us_icon.svg') }}"
+                            <a href="#about" class="header__link "><img  class="nav-header pr-2 " src="{{ asset('icons/about_us_icon.svg') }}"
                                                                           alt="О нас">О нас</a>
                         </li>
                         <li class="nav-header">
@@ -40,12 +40,12 @@
                                 покупателей</a>
                         </li>
                         <li >
-                            <a href="#" class="header__link"><img class="nav-header pr-2"  src="{{ asset('icons/how_we_work_icon.svg') }}"
+                            <a href="#work" class="header__link"><img class="nav-header pr-2"  src="{{ asset('icons/how_we_work_icon.svg') }}"
                                                                   alt="Как мы работаем?">Как
                                 мы работаем?</a>
                         </li>
                         <li>
-                            <a href="#" class="header__link "><img  class="nav-header pr-2" src="{{ asset('icons/contact_icon.svg') }}"
+                            <a href="#contact" class="header__link "><img  class="nav-header pr-2" src="{{ asset('icons/contact_icon.svg') }}"
                                                                           alt="Контакты">Контакты</a>
                         </li>
                     </ul>

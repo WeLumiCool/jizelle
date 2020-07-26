@@ -1,4 +1,4 @@
-<div class="container my-5">
+<div class="container my-5" id="work">
     <div class="col-12 text-center">
         <h2 class="">Как мы работаем?</h2>
     </div>

@@ -2,8 +2,8 @@
 @section('title-block')Пользовательское соглашение@endsection
 @section('content')
 <div class="container">
-    <div class="row">
-        <div class="col-12 text-center">
+    <div class="row py-5">
+        <div class="col-12 text-center mb-3">
             <h1 class="main-text">Пользовательское соглашение</h1>
         </div>
         <div class="col-12">

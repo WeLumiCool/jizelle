@@ -84,11 +84,11 @@
     background: #9FB3C8;
 }
 .btn-modal{
-    border:none;
-    color: white;
+    border:none!important;
+    color: white!important;
     outline: none!important;
-    padding: 13px 59px;
-    background: #A2C3E4;
+    padding: 13px 59px!important;
+    background: #5d94e4 !important;
     border-radius: 10px;
 }
 
@@ -167,7 +167,7 @@ header.sticky {
     color: #000;
     /*text-transform: uppercase;*/
     font-size: 16px;
-    padding-top: 60px;
+    /*padding-top: 60px;*/
     text-decoration: none;
 }
 .nav-header{
