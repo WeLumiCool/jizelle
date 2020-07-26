@@ -9,11 +9,11 @@
             </div>
             <div class="modal-body" style="padding: 40px;">
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-lg-5 col-12">
                         <img src="{{ asset('image/1.png') }}" class="w-100 "
                              alt="photo">
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7 col-12 mt-lg-0 mt-4">
                         <h3 class="font-weight-bold">Блузка</h3>
                         <div class="py-4">
                             <p class="">
