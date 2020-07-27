@@ -20,8 +20,8 @@
                                 Блузка свободного кроя с рукавами 3/4 на манжете.Имеються разрезы по бокам и нагрудные вытачки.
                             </p>
                         </div>
-                        <p>Состав: 97% п/э, 3% эластан</p>
-                        <p>Цвет: голубая</p>
+                        <p><span class="font-weight-bold">Состав:</span> <span style="color: #4979A9;">97% п/э, 3% эластан</span></p>
+                        <p><span class="font-weight-bold">Цвет:</span> <span style="color: #4979A9;">голубая</span></p>
                     </div>
                 </div>
             </div>
