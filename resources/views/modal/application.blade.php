@@ -14,7 +14,7 @@
                 </div>
                 <div class="form-label-group pt-4">
                     <label for="telephone">Номер телефона</label>
-                    <input type="text" id="telephone" class="form-control" placeholder="Введите номер телефона" required="" autofocus="">
+                    <input type="text" id="telephone" class="form-control" onkeypress='return event.charCode >= 48 && event.charCode <= 57 || event.charCode === 43' placeholder="Введите номер телефона" required="" autofocus="">
                 </div>
 
                 <div class="custom-control custom-checkbox pt-3">
@@ -28,9 +28,6 @@
                     {{--<button id="accept" type="button" class="btn btn-success" style="display:none">Принимаю</button>--}}
                     {{--<button id="reject" type="button" class="btn btn-danger" style="display:none">Не принимаю</button>--}}
                 {{--</div>--}}
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
             </div>
         </div>
     </div>

@@ -9,13 +9,13 @@
             </div>
             <div class="modal-body" style="padding: 40px;">
                 <div class="row">
-                    <div class="col-lg-5 col-12">
-                        <img src="{{ asset('image/1.png') }}" class="w-100 "
+                    <div class="col-lg-5 col-12 px-lg-0 px-5">
+                        <img src="{{ asset('image/1.png') }}" class="w-100"
                              alt="photo">
                     </div>
                     <div class="col-lg-7 col-12 mt-lg-0 mt-4">
                         <h3 class="font-weight-bold">Блузка</h3>
-                        <div class="py-4">
+                        <div class="py-lg-4 py-2">
                             <p class="">
                                 Блузка свободного кроя с рукавами 3/4 на манжете.Имеються разрезы по бокам и нагрудные вытачки.
                             </p>
@@ -24,10 +24,11 @@
                         <p><span class="font-weight-bold">Цвет:</span> <span style="color: #4979A9;">голубая</span></p>
                     </div>
                 </div>
+                <div class="row justify-content-lg-end justify-content-start">
+                    <button type="button" class="btn btn-primary take-info">Подробнее</button>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary take-info">Подробнее</button>
-            </div>
+
         </div>
     </div>
 </div>

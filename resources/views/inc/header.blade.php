@@ -35,10 +35,10 @@
                             <a href="#about" class="header__link "><img  class="nav-header pr-2 " src="{{ asset('icons/about_us_icon.svg') }}"
                                                                           alt="О нас">О нас</a>
                         </li>
-                        <li class="nav-header">
-                            <a href="#" class="header__link"><img  class="nav-header pr-2" src="{{ asset('icons/catalog_icon.svg') }}" alt="Каталог">Каталог для оптовых
-                                покупателей</a>
-                        </li>
+                        {{--<li class="nav-header">--}}
+                            {{--<a href="#" class="header__link"><img  class="nav-header pr-2" src="{{ asset('icons/catalog_icon.svg') }}" alt="Каталог">Каталог для оптовых--}}
+                                {{--покупателей</a>--}}
+                        {{--</li>--}}
                         <li >
                             <a href="#work" class="header__link"><img class="nav-header pr-2"  src="{{ asset('icons/how_we_work_icon.svg') }}"
                                                                   alt="Как мы работаем?">Как

@@ -34,10 +34,12 @@
 @include('modal.product2')
 @include('modal.product3')
 @include('modal.product4')
+@include('modal.catch')
 <script src="{{ asset('js/jquery.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('js/mdb.min.js') }}"></script>
 <script src="{{ asset('js/owl.carousel.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 @stack('scripts')
 <script type="text/javascript">
     $(document).ready(function(){
@@ -54,9 +56,9 @@
     owl.owlCarousel({
         margin: 10,
         loop: true,
-        nav:true,
-        // autoplay:true,
-        // autoplayTimeout:5000,
+        // nav:true,
+        autoplay:true,
+        autoplayTimeout:7000,
         // autoplaySpeed: 1500,
         // autoplayHoverPause:true,
         responsive: {

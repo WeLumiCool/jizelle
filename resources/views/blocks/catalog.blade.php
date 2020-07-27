@@ -13,7 +13,7 @@
             </div>
             <div class="col-lg-3 col-12 overlay mt-4">
                 <div class="d-flex justify-content-center">
-                    <img data-toggle="modal" data-target="#product" src="{{ asset('image/1.png') }}" class="w-100" style="cursor: pointer"
+                    <img data-toggle="modal" data-target="#product" src="{{ asset('image/1.png') }}" class="w-100 prod-image" style="cursor: pointer"
                          alt="photo">
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
@@ -24,7 +24,7 @@
             </div>
             <div class="col-lg-3 col-12 overlay mt-4">
                 <div class="d-flex justify-content-center">
-                    <img data-toggle="modal" data-target="#product1"  src="{{ asset('image/5.png') }}" class="w-100 " style="cursor: pointer"
+                    <img data-toggle="modal" data-target="#product1"  src="{{ asset('image/5.png') }}" class="w-100 prod-image" style="cursor: pointer"
                          alt="photo">
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
@@ -35,7 +35,7 @@
             </div>
             <div class="col-lg-3 col-12 view overlay mt-4">
                 <div class="d-flex justify-content-center">
-                    <img data-toggle="modal" data-target="#product"  src="{{ asset('image/1.png') }}" class="w-100" style="cursor: pointer"
+                    <img data-toggle="modal" data-target="#product"  src="{{ asset('image/1.png') }}" class="w-100 prod-image" style="cursor: pointer"
                          alt="photo">
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
@@ -46,7 +46,7 @@
             </div>
             <div class="col-lg-3 col-12 view overlay mt-4">
                 <div class="d-flex justify-content-center">
-                    <img data-toggle="modal" data-target="#product2"   src="{{ asset('image/2.png') }}" class="w-100  " style="cursor: pointer"
+                    <img data-toggle="modal" data-target="#product2"   src="{{ asset('image/2.png') }}" class="w-100  prod-image " style="cursor: pointer"
                          alt="photo">
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
@@ -57,7 +57,7 @@
             </div>
             <div class="col-lg-3 col-12 view overlay mt-4">
                 <div class="d-flex justify-content-center">
-                    <img data-toggle="modal" data-target="#product3"  src="{{ asset('image/3.png') }}" class="w-100  " style="cursor: pointer"
+                    <img data-toggle="modal" data-target="#product3"  src="{{ asset('image/3.png') }}" class="w-100  prod-image " style="cursor: pointer"
                          alt="photo">
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
@@ -68,7 +68,7 @@
             </div>
             <div class="col-lg-3 col-12 view overlay mt-4">
                 <div class="d-flex justify-content-center">
-                    <img data-toggle="modal" data-target="#product4"  src="{{ asset('image/4.png') }}" class="w-100  " style="cursor: pointer"
+                    <img data-toggle="modal" data-target="#product4"  src="{{ asset('image/4.png') }}" class="w-100  prod-image " style="cursor: pointer"
                          alt="photo">
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
@@ -93,6 +93,125 @@
             setTimeout(function () {
                 $('#submit').modal('show');
             },100)
+        })
+    </script>
+    <script>
+        var check = 0;
+        var gone = 0;
+        $('.prod-image').click(function () {
+            if (check == 0 && gone == 0)
+            {
+                gone = 1;
+                setTimeout(function () {
+                    $('#product').modal('hide');
+                    $('#product1').modal('hide');
+                    $('#product2').modal('hide');
+                    $('#product3').modal('hide');
+                    $('#product4').modal('hide');
+                    setTimeout(function () {
+                        $('#catch').modal('show');
+                    },100);
+                    check = 1;
+                },8000)
+            }
+        });
+    </script>
+        <script>
+            $('#accept2').click(function () {
+                var name = $('#name').val();
+                var phone = $('#phone').val();
+
+                if (name == '' || phone == '') {
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'error',
+                        title: 'Заполните поля',
+                    });
+                }
+                else {
+                    $.ajax({
+                        url: '{{ route('send') }}',
+                        method: 'POST',
+                        data: {
+                            "_token": "{{ csrf_token() }}",
+                            "name": name,
+                            "phone": phone
+                        },
+                        success: data => {
+                            if (data.check == 1){
+                                Swal.fire({
+                                    position: 'center',
+                                    icon: 'success',
+                                    title: 'Заявка отправлена',
+                                });
+                                $('#catch').modal('hide');;
+                                $('#name').val('');
+                                $('#phone').val('');
+                            }
+                            else if (data.check == 0) {
+                                Swal.fire({
+                                    position: 'center',
+                                    icon: 'info',
+                                    title: 'Вы уже отправляли заявку',
+                                });
+                                $('#catch').modal('hide');
+                                $('#name').val('');
+                                $('#phone').val('');
+                            }
+                        },
+                        error: () => {
+                        }
+                    });
+                }
+            })
+        </script>
+    <script>
+        $('#accept').click(function () {
+            var name = $('#inputName').val();
+            var phone = $('#telephone').val();
+
+            if (name == '' || phone == '') {
+                Swal.fire({
+                    position: 'center',
+                    icon: 'error',
+                    title: 'Заполните поля',
+                });
+            }
+            else {
+                $.ajax({
+                    url: '{{ route('send') }}',
+                    method: 'POST',
+                    data: {
+                        "_token": "{{ csrf_token() }}",
+                        "name": name,
+                        "phone": phone
+                    },
+                    success: data => {
+                        if (data.check == 1){
+                            Swal.fire({
+                                position: 'center',
+                                icon: 'success',
+                                title: 'Заявка отправлена',
+                            });
+                            $('#submit').modal('hide');;
+                            $('#inputName').val('');
+                            $('#telephone').val('');
+                        }
+                        else if (data.check == 0) {
+                            Swal.fire({
+                                position: 'center',
+                                icon: 'info',
+                                title: 'Вы уже отправляли заявку',
+                            });
+                            $('#submit').modal('hide');
+                            $('#inputName').val('');
+                            $('#telephone').val('');
+                        }
+                    },
+                    error: () => {
+                    }
+                });
+            }
         })
     </script>
 @endpush

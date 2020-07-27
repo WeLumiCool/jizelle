@@ -185,9 +185,9 @@ header.sticky {
         font-size: 30px;
         line-height: 95.33%;
     }
-    .header.active:before{
-        background: linear-gradient(180deg, #64A0C2 0%, #CFDAF0 100%);
-    }
+    /*.header.active:before{*/
+        /*background: linear-gradient(180deg, #64A0C2 0%, #CFDAF0 100%);*/
+    /*}*/
     .header__burger{
         display: block;
         position: relative;
@@ -260,50 +260,50 @@ header.sticky {
     }
 }
 
-.owl-one .owl-nav.disabled
-{
-    display: block!important;
-}
-.owl-one .owl-nav .owl-prev
-{
-    position: absolute;
-    left:-35px;
-    top:45%;
-    background-color: #A2C3E4!important;
-    width:35px;
-    height:44px;
-    outline: none;
+/*.owl-one .owl-nav.disabled*/
+/*{*/
+    /*display: block!important;*/
+/*}*/
+/*.owl-one .owl-nav .owl-prev*/
+/*{*/
+    /*position: absolute;*/
+    /*left:-35px;*/
+    /*top:45%;*/
+    /*background-color: #A2C3E4!important;*/
+    /*width:35px;*/
+    /*height:44px;*/
+    /*outline: none;*/
 
-}
-.owl-one .owl-nav .owl-next
-{
-    position: absolute;
-    right:-35px;
-    top:45%;
-    background-color: #A2C3E4!important;
-    width:35px;
-    height:44px;
-    outline: none;
-    z-index: 9999;
-}
-.owl-one .owl-nav .owl-prev:before {
-    position: absolute;
-    left:50%;
-    top:45%;
-    transform: translate(-50%,-50%);
-    content: '<';
-    font-size: 30px;
-    transition: 0.5s;
-}
-.owl-one .owl-nav .owl-next:before {
-    position: absolute;
-    left:50%;
-    top:45%;
-    transform: translate(-50%,-50%);
-    content: '>';
-    font-size: 30px;
-    transition: 0.5s;
-}
+/*}*/
+/*.owl-one .owl-nav .owl-next*/
+/*{*/
+    /*position: absolute;*/
+    /*right:-35px;*/
+    /*top:45%;*/
+    /*background-color: #A2C3E4!important;*/
+    /*width:35px;*/
+    /*height:44px;*/
+    /*outline: none;*/
+    /*z-index: 9999;*/
+/*}*/
+/*.owl-one .owl-nav .owl-prev:before {*/
+    /*position: absolute;*/
+    /*left:50%;*/
+    /*top:45%;*/
+    /*transform: translate(-50%,-50%);*/
+    /*content: '<';*/
+    /*font-size: 30px;*/
+    /*transition: 0.5s;*/
+/*}*/
+/*.owl-one .owl-nav .owl-next:before {*/
+    /*position: absolute;*/
+    /*left:50%;*/
+    /*top:45%;*/
+    /*transform: translate(-50%,-50%);*/
+    /*content: '>';*/
+    /*font-size: 30px;*/
+    /*transition: 0.5s;*/
+/*}*/
 .custom-control-label::after, .custom-control-label::before
 {
     width:0.8rem!important;

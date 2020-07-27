@@ -23,3 +23,5 @@ Route::get('/terms_of_use', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+Route::post('/send','HomeController@send')->name('send');
