@@ -19,16 +19,16 @@
         <div class="col-12 col-lg-5 pb-5 px-5">
             <div class="owl-one owl-carousel text-center">
                 <div class="item">
-                    <img class="img-fluid" src="{{ asset('image/carousel.png') }}"   alt="catalog">
+                    <img class="img-fluid" src="{{ asset('image/1.png') }}"   alt="catalog">
                 </div>
                 <div class="item">
-                    <img class="img-fluid" src="{{ asset('image/carousel.png') }}"   alt="catalog">
+                    <img class="img-fluid" src="{{ asset('image/2.png') }}"   alt="catalog">
                 </div>
                 <div class="item">
-                    <img class="img-fluid" src="{{ asset('image/carousel.png') }}"   alt="catalog">
+                    <img class="img-fluid" src="{{ asset('image/3.png') }}"   alt="catalog">
                 </div>
                 <div class="item">
-                    <img class="img-fluid" src="{{ asset('image/carousel.png') }}"   alt="catalog">
+                    <img class="img-fluid" src="{{ asset('image/4.png') }}"   alt="catalog">
                 </div>
             </div>
         </div>

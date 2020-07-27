@@ -18,8 +18,8 @@
                 </div>
 
                 <div class="custom-control custom-checkbox pt-3">
-                    <input type="checkbox" class="custom-control-input" id="myCheck" onclick="myFunction()">
-                    <label class="custom-control-label" for="myCheck">Принять <a href="{{ route('terms_of_use') }}" target="_blank">пользовательское соглашение</a></label>
+                    <input type="checkbox" class="custom-control-input font-small" id="myCheck" onclick="myFunction()">
+                    <label class="custom-control-label small" style="line-height: 120%" for="myCheck">Нажимая на кнопку "отправить" вы соглашаетесь с <a href="{{ route('terms_of_use') }}" target="_blank">пользовательским соглашением</a></label>
                 </div>
                 <div class="pt-4 text-center">
                     <button type="button" id="accept" class="btn-modal btn" disabled>Отправить</button>
