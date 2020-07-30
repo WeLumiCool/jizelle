@@ -15,6 +15,9 @@
                 <div class="d-flex justify-content-center">
                     <img data-toggle="modal" data-target="#product" src="{{ asset('image/1.png') }}" class="w-100 prod-image" style="cursor: pointer"
                          alt="photo">
+                    <div class="d-flex justify-content-center align-items-center border" style="position: absolute; width:90%; height: 30px; background:#fefefe; left:5%; bottom:0%;">
+                        <span class="font-weight-bold" style="color: #4979A9;">380 рублей</span>
+                    </div>
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
                             {{--eiusmod--}}
@@ -26,6 +29,9 @@
                 <div class="d-flex justify-content-center">
                     <img data-toggle="modal" data-target="#product1"  src="{{ asset('image/5.png') }}" class="w-100 prod-image" style="cursor: pointer"
                          alt="photo">
+                    <div class="d-flex justify-content-center align-items-center border" style="position: absolute; width:90%; height: 30px; background:#fefefe; left:5%; bottom:0%;">
+                        <span class="font-weight-bold" style="color: #4979A9;">400 рублей</span>
+                    </div>
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
                             {{--eiusmod--}}
@@ -37,6 +43,9 @@
                 <div class="d-flex justify-content-center">
                     <img data-toggle="modal" data-target="#product"  src="{{ asset('image/1.png') }}" class="w-100 prod-image" style="cursor: pointer"
                          alt="photo">
+                    <div class="d-flex justify-content-center align-items-center border" style="position: absolute; width:90%; height: 30px; background:#fefefe; left:5%; bottom:0%;">
+                        <span class="font-weight-bold" style="color: #4979A9;">380 рублей</span>
+                    </div>
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
                             {{--eiusmod--}}
@@ -48,6 +57,9 @@
                 <div class="d-flex justify-content-center">
                     <img data-toggle="modal" data-target="#product2"   src="{{ asset('image/2.png') }}" class="w-100  prod-image " style="cursor: pointer"
                          alt="photo">
+                    <div class="d-flex justify-content-center align-items-center border" style="position: absolute; width:90%; height: 30px; background:#fefefe; left:5%; bottom:0%;">
+                        <span class="font-weight-bold" style="color: #4979A9;">420 рублей</span>
+                    </div>
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
                             {{--eiusmod--}}
@@ -58,7 +70,9 @@
             <div class="col-lg-3 col-12 view overlay mt-4">
                 <div class="d-flex justify-content-center">
                     <img data-toggle="modal" data-target="#product3"  src="{{ asset('image/3.png') }}" class="w-100  prod-image " style="cursor: pointer"
-                         alt="photo">
+                         alt="photo"><div class="d-flex justify-content-center align-items-center border" style="position: absolute; width:90%; height: 30px; background:#fefefe; left:5%; bottom:0%;">
+                        <span class="font-weight-bold" style="color: #4979A9;">800 рублей</span>
+                    </div>
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
                             {{--eiusmod--}}
@@ -70,6 +84,9 @@
                 <div class="d-flex justify-content-center">
                     <img data-toggle="modal" data-target="#product4"  src="{{ asset('image/4.png') }}" class="w-100  prod-image " style="cursor: pointer"
                          alt="photo">
+                    <div class="d-flex justify-content-center align-items-center border" style="position: absolute; width:90%; height: 30px; background:#fefefe; left:5%; bottom:0%;">
+                        <span class="font-weight-bold" style="color: #4979A9;">880 рублей</span>
+                    </div>
                     {{--<div class="mask flex-center rgba-black-strong">--}}
                         {{--<p class="white-text p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do--}}
                             {{--eiusmod--}}

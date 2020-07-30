@@ -22,6 +22,7 @@
                         </div>
                         <p><span class="font-weight-bold">Состав:</span> <span style="color: #4979A9;">97% п/э, 3% эластан</span></p>
                         <p><span class="font-weight-bold">Цвет:</span> <span style="color: #4979A9;">голубая</span></p>
+                        <p><span class="font-weight-bold">Цена:</span> <span style="color: #4979A9;">380 рублей</span></p>
                     </div>
                 </div>
                 <div class="row justify-content-lg-end justify-content-start">

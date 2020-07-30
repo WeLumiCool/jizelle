@@ -22,6 +22,7 @@
                         </div>
                         <p><span class="font-weight-bold">Состав:</span> <span style="color: #4979A9;">10%шерсти 85 %п/э 5%эластана</span></p>
                         <p><span class="font-weight-bold">Цвет:</span> <span style="color: #4979A9;">серый в клетку</span></p>
+                        <p><span class="font-weight-bold">Цена:</span> <span style="color: #4979A9;">880 рублей</span></p>
                     </div>
                 </div>
                 <div class="row justify-content-lg-end justify-content-start">

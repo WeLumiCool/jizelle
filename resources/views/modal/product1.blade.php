@@ -22,6 +22,7 @@
                         </div>
                         <p><span class="font-weight-bold">Состав:</span> <span style="color: #4979A9;">30%хлопка 63% п/э, 7% эластан</span></p>
                         <p><span class="font-weight-bold">Цвет:</span> <span style="color: #4979A9;">белая</span></p>
+                        <p><span class="font-weight-bold">Цена:</span> <span style="color: #4979A9;">400 рублей</span></p>
                     </div>
                 </div>
                 <div class="row justify-content-lg-end justify-content-start">

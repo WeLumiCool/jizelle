@@ -22,6 +22,7 @@
                         </div>
                         <p><span class="font-weight-bold">Состав:</span> <span style="color: #4979A9;">85%хлопка 10%вискозы 5%эластана</span></p>
                         <p><span class="font-weight-bold">Цвет:</span> <span style="color: #4979A9;">бежевый</span></p>
+                        <p><span class="font-weight-bold">Цена:</span> <span style="color: #4979A9;">420 рублей</span></p>
                     </div>
                 </div>
                 <div class="row justify-content-lg-end justify-content-start">

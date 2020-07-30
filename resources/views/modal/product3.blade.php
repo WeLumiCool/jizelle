@@ -22,6 +22,7 @@
                         </div>
                         <p><span class="font-weight-bold">Состав:</span> <span style="color: #4979A9;">65% п/э, 30% вискоза, 5% лайкра</span></p>
                         <p><span class="font-weight-bold">Цвет:</span> <span style="color: #4979A9;">марсала</span></p>
+                        <p><span class="font-weight-bold">Цена:</span> <span style="color: #4979A9;">800 рублей</span></p>
                     </div>
                 </div>
                 <div class="row justify-content-lg-end justify-content-start">
